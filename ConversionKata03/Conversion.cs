@@ -12,7 +12,7 @@ namespace ConversionKata03
         {
             var result = new StringBuilder(string.Empty);
             var remaining = arabic;
-
+             
             if(remaining >= 5)
             {
                 result.Append("V");

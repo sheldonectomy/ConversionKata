@@ -7,16 +7,6 @@ using System.Threading.Tasks;
 namespace ConversionKata03
 {
 
-    /*
-        I 	1
-        V 	5
-        X 	10
-        L 	50
-        C 	100
-        D 	500
-        M 	1000
-    */
-
     public class Conversion
     {
         private int[] arabicIndex = { 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 };
@@ -31,14 +21,6 @@ namespace ConversionKata03
             {
                 remaining = appendNumeral(remaining, arabicIndex[i], romanIndex[i], result);
             }
-
-            return result.ToString();
-
-            remaining = appendNumeral(remaining, 10, "X", result);
-            remaining = appendNumeral(remaining, 9, "IX", result);
-            remaining = appendNumeral(remaining, 5, "V", result);
-            remaining = appendNumeral(remaining, 4, "IV", result);
-            remaining = appendNumeral(remaining, 1, "I", result);
 
             return result.ToString();
         }

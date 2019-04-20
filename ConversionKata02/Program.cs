@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConversionKata
+namespace ConversionKata02
 {
-    public class ConversionTests
+    class Program
     {
+        static void Main(string[] args)
+        {
+        }
     }
 }
